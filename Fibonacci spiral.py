@@ -18,14 +18,8 @@ L = []
 
 for i in range(20):
 	L.append(fib(i))
-	
-l = []
 
-for i in range(20):
-	l.append(L[i])
-	
-
-for i in l:
+for i in L:
 	sq_arc(i)	
 
 done()
