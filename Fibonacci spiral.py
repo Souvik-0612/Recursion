@@ -16,7 +16,14 @@ def fib(c):
 
 L = []
 
-for i in range(20):
+penup()
+goto(200, 100)
+pendown()
+color("violet")
+width(4)
+speed(10)
+
+for i in range(16):
 	L.append(fib(i))
 
 for i in L:
